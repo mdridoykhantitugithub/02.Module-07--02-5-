@@ -1,0 +1,17 @@
+/* transform */
+.box{
+    width: 200px;
+    height: 200px;
+}
+
+
+.outer{
+    background-color: red;
+    border: 1px solid black;
+}
+.inner{
+    transform: scale(0.5) rotate(45deg);
+    border-radius: 10%;
+    background-color: blue;
+    border: 1px solid black;
+}
